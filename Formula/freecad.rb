@@ -1,9 +1,9 @@
 class Freecad < Formula
   desc "Parametric 3D modeler"
   homepage "http://www.freecadweb.org"
-  url "https://github.com/FreeCAD/FreeCAD/archive/0.17.tar.gz"
-  version "0.17"
-  sha256 "ae017393476b6dc7f1192bcaf91ceedc2f9b791f2495307ce7c45efadb5266fb"
+  url "https://github.com/FreeCAD/FreeCAD/archive/0.18.2.tar.gz"
+  version "0.18.2"
+  sha256 "9b28007df2ee67d28992ce4bbfb44ad8484cdd32fd5756afcbd00b81a382b9e4"
   head "https://github.com/FreeCAD/FreeCAD.git", :branch => "master"
 
   # Debugging Support
@@ -22,7 +22,7 @@ class Freecad < Formula
   # Required dependencies
   depends_on :macos => :mavericks
   depends_on "freetype"
-  depends_on "python@2"
+  depends_on "python@3"
   depends_on "boost-python"
   depends_on "xerces-c"
   if build.with?("qt4")
