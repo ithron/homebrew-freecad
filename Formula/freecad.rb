@@ -30,7 +30,7 @@ class Freecad < Formula
     depends_on "cartr/qt4/pyside-tools@1.2"
   else
     depends_on "qt"
-    depends_on "qtwebkit"
+    depends_on "FreeCAD/freecad.qtwebkit"
     depends_on "FreeCAD/freecad/pyside2-tools"
     depends_on "webp"
   end
